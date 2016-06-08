@@ -1,5 +1,6 @@
-Kubernetes kubectl docker image based on pause image used by kubernetes cluster.
+Kubernetes kubectl docker image based on busybox.
 
-Why: It permits using kubectl with docker exec with minimal wate of memory or proccess
+Running: 
+  docker run -it oondeo/kubectl get nodes
 
 
